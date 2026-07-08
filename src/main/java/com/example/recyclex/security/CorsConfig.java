@@ -16,7 +16,7 @@ public class CorsConfig {
 
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOriginPatterns(List.of("*"));
+        config.setAllowedOriginPatterns(List.of("*","https://lathikaa10.github.io/fullstackfrontend/"));
 
         config.setAllowedMethods(List.of(
                 "GET",
